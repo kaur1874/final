@@ -16,6 +16,7 @@
 
 
   <header>
+    <div class="wrapper">
     <div class="logo">
       <img src="images/logo.png" alt="Three Star Media Logo">
     </div>
@@ -28,35 +29,43 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-  </header>
-
-  
-  <form class="submitbutton" method="get">
+    <form class="submitbutton" method="get">
   <input type="text" placeholder="Search" id="search">
   <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
 </form>
+  </div>
+  </header>
 
+  
+ 
+<main>
 
 
   <section id="home" class="hero">
+    <div class="wrapper">
     <h1>Welcome to Three Star Media</h1>
     <p>Your tagline or brief welcome text goes here.</p>
     <a href="#services">Connect With Us</a>
+  </div>
   </section>
 
   <section id="about" class="about">
+    <div class="wrapper">
     <img src="images/about-us.jpg" alt="Office Image">
     <h2>About Us</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
       Curabitur ut eros vel odio malesuada egestas. 
     </p>
+    </div>
   </section>
 
 
   <section id="services" class="services">
+    <div class="wrapper">
     <h2>Our Services</h2>
 
+    <div class="services-grid">
     <article class="service">
       <img src="images/digital.jpg" alt="Service 1">
       <h3>Digital Transformation</h3>
@@ -91,15 +100,19 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla saepe corrupti eveniet harum asperiores consequuntur deserunt est.</p>
       <a href="#">Print Plans</a>
     </article>
+    </div>
+    </div>
   </section>
 
 
   <section class="vision">
+    <div class="wrapper">
     <h2>Our Vision</h2>
-    <img src="images/vision.jpg" alt="Our Vision">
+    <!-- <img src="images/vision.jpg" alt="Our Vision"> bg img in css-->
     <p>
       We strive to deliver the best solutions that empower your business for the future.
     </p>
+    </div>
   </section>
 
 
@@ -123,6 +136,8 @@
   <section id="contact" class="contact">
     <h2>Contact Us</h2>
 
+    <div>
+      <h3></h3>
     <form>
       <label for="name">Full Name:</label>
       <input type="text" id="name" name="name" required>
@@ -135,7 +150,7 @@
 
       <button type="submit">Send Message</button>
     </form>
-
+</div>
     
     <div class="map">
       <h3>Location</h3>
@@ -145,7 +160,7 @@
  <!-- Map changes order to mobile from desktop -->
   
   <div>
-    <h2>Hours of Operation</h2>
+    <h3>Hours of Operation</h3>
     <table>
       <thead>
         <tr>
@@ -171,7 +186,7 @@
   </div>
   </section>
 
-  
+  </main>
   <footer>
     <p>&copy; 2025 Three Star Media. All Rights Reserved.</p>
   </footer>
